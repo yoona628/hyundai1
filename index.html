@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대모터스튜디오 고양</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="xeicon.min">
+</head>
+<body>
+    <header>
+        <div class="wrap"> <!-- .wrap으로 div생성-->
+            <h1>
+                <a href="index.html"> <!-- a안에 링크,이미지 -->
+                    <img src="images/logo.png" alt="현대모터스스튜디오고양">
+                </a>
+            </h1> 
+            <ul class="gnb"> <!-- ul 의 이름 gnb-->
+                <li><a href="#">이용안내</a></li>
+                <li><a href="#">전시</a></li>
+                <li><a href="#">프로그램</a></li>
+                <li><a href="#">소개</a></li>
+                <li><a href="#">나만의 페이지</a></li>
+            </ul>
+            <ul class="snb">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">Language</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="blank"></div> <!-- 슬라이드가 헤더에 올라가는걸 방지 -->
+    <section id="main"> <!-- section은 id로 지정 -->
+        <h2 class="blind">메인슬라이드 배너영역</h2> <!-- 목차.보이지않는 영역 -->
+        <div class="wrap slide">  <!-- wrap이 두개, 한개씩 id이름 지정 -->
+            <img src="images/main_visual.jpg" alt="현대모터스튜디오고양 야경">
+            <article>
+                <h3>현대 모터스튜디오 고양</h3> <!-- article은 헤딩요소필수(h,p)-->
+                <p>자동차를 보고 듣고 느끼는<br>
+                새로운 여행이 시작되는 곳</p>
+                <a href="#">비전 바로가기<i class="xi-angle-right"></i></a> <!--나눔고딕꺽새-->
+            </article>
+            <ul>
+                <li class="select"><a href="#">1</a></li> <!-- 선택부분 class select지정-->
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+            <a href="#" class="prev"> <!-- a의 이름 prev-->
+                <img src="images/arr_left2.png" alt="이전">
+            </a>
+            <a href="#" class="next">
+                <img src="images/arr_right2.png" alt="다음">
+            </a>
+        </div>
+
+
+        <div class="wrap go">
+            <ul>
+                <li>
+                    <a href="#">상설전시 예약</a>
+                </li>
+                <li>
+                    <a href="#">가이드투어 예약</a>
+                </li>
+                <li>
+                    <a href="#">테마시승 예약</a>
+                </li>
+                <li>
+                    <a href="#">이벤트</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="bnr">
+        <h2 class="blind">공지사항영역</h2>
+        <div class="wrap">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/bnr1.jpg" alt="Drive Out 신차시승G70">
+                        <p>Drive Out 신차시승G70</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/bnr2.jpg" alt="현대모터스튜디오 고양 키즈워크샵">
+                        <p>현대모터스튜디오 고양 키즈워크샵</p>
+                    </a>
+                </li>   <li>
+                    <a href="#">
+                        <img src="images/bnr3.jpg" alt="Drive Out 신차시승SANTA FE">
+                        <p>Drive Out 신차시승SANTA FE</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
